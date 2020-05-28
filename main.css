@@ -1,0 +1,55 @@
+header{
+    background: black;
+	color: white;
+	padding: 15px;
+}
+
+body{
+	background-image: url("site background.jpg");
+	background-position: center; 
+	background-repeat: no-repeat; 
+	background-color: #cccccc;
+}
+
+h1, h2, li{
+	color: #fbf5f5;
+}
+
+p{
+    background: rgb(204, 204, 204); 
+    background: rgba(204, 204, 204, 0.5);
+	color: black;
+	padding: 10px;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+  	font-size: 24px;
+  	text-transform: uppercase;
+    background: rgb(204, 204, 204); 
+    background: rgba(204, 204, 204, 0.5);
+}
+
+li {
+	float: left;
+}
+
+li, a {
+	display: inline-block;
+	color: black;
+	text-align: center;
+	padding: 16px;
+	text-decoration: none;
+}
+
+li a:hover {
+	background-color: #111111;
+	color: yellow;
+}
+
+footer{
+	clear: both;
+}
