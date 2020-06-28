@@ -11,8 +11,10 @@ body{
 	background-color: #cccccc;
 }
 
-h1, h2, li{
-	color: #fbf5f5;
+h2{
+	position: relative;
+	left: 1.5%;
+	text-shadow: 0 0 5px black;
 }
 
 p{
@@ -22,7 +24,11 @@ p{
 	padding: 10px;
 }
 
-ul {
+div {
+	text-align: center;
+}
+
+ul{
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
@@ -34,11 +40,11 @@ ul {
     background: rgba(204, 204, 204, 0.5);
 }
 
-li {
+#menu-items li {
 	float: left;
 }
 
-li, a {
+#menu-items li, a {
 	display: inline-block;
 	color: black;
 	text-align: center;
@@ -46,16 +52,55 @@ li, a {
 	text-decoration: none;
 }
 
-li a:hover {
+#menu-items li a:hover {
 	background-color: #111111;
 	color: yellow;
 }
 
-button{
-	color: black;
+h1, h2, #menu-items li{
+	color: #fbf5f5;
+}
+
+.button-text-center{
 	text-align: center;
-	font: "Times New Roman";
-	padding: 16px;
+	margin: 0 auto;
+	position: relative;
+	top: 50%;
+	left: 50%;
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	display: inline-block;
+}
+
+.btn-group button {
+	background: rgb(204, 204, 204); 
+	background: rgba(204, 204, 204, 0.5);
+	border: 1px solid black; 
+	color: black; 
+	padding: 10px 24px; 
+	cursor: pointer; 
+	float: left; 
+}
+
+.btn-group button:not(:last-child) {
+	border-right: none; 
+}
+
+.btn-group:after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+.btn-group button:hover {
+  background-color: #111111;
+  color: yellow;
+}
+
+.divider{
+    width:0.5px;
+    height:auto;
+    display:inline-block;
 }
 
 footer{
