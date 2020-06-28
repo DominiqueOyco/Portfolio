@@ -21,6 +21,7 @@ p{
     background: rgb(204, 204, 204); 
     background: rgba(204, 204, 204, 0.5);
 	color: black;
+	font-size: large;
 	padding: 10px;
 }
 
@@ -35,13 +36,13 @@ ul{
     overflow: scroll;
 	overflow-x: hidden;
   	font-size: 24px;
-  	text-transform: uppercase;
     background: rgb(204, 204, 204); 
     background: rgba(204, 204, 204, 0.5);
 }
 
 #menu-items li {
 	float: left;
+	text-transform: uppercase;
 }
 
 #menu-items li, a {
@@ -52,13 +53,19 @@ ul{
 	text-decoration: none;
 }
 
-#menu-items li a:hover {
+#menu-items li a:hover, #cert-items li a:hover{
 	background-color: #111111;
 	color: yellow;
 }
 
 h1, h2, #menu-items li{
 	color: #fbf5f5;
+}
+
+#edu-items li, #cert-items li{
+	color: black;
+	text-align: center;
+	padding: 10px;
 }
 
 .button-text-center{
@@ -105,4 +112,8 @@ h1, h2, #menu-items li{
 
 footer{
 	clear: both;
+    background: black;
+	color: white;
+	text-align: center;
+	padding: 15px;
 }
