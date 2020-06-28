@@ -51,6 +51,13 @@ li a:hover {
 	color: yellow;
 }
 
+button{
+	color: black;
+	text-align: center;
+	font: "Times New Roman";
+	padding: 16px;
+}
+
 footer{
 	clear: both;
 }
