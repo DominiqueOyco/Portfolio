@@ -37,6 +37,10 @@ header #my-Name h1 a{
 	color: yellow;
 }
 
+header ul{
+	list-style-type: none;
+}
+
 header nav{
 	float: right;
 	margin-top: 10px;
@@ -77,27 +81,28 @@ p{
 	padding: 10px;
 }
 
-div {
+/*div {
 	text-align: center;
-}
-
-ul{
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-/*    overflow: scroll;
-	overflow-x: hidden;*/
-  	/*font-size: 20px;*/
-/*    background: rgb(204, 204, 204); 
-    background: rgba(204, 204, 204, 0.5);*/
-}
+}*/
 
 h1, h2{
 	color: yellow;
 }
 
 li{
-	color: white;
+	color: black;
+}
+
+li a{
+	text-decoration: none;
+}
+
+a{
+	color: black;
+}
+
+#edu-items ul, #cert-items ul{
+	list-style-type: none;
 }
 
 #edu-items li, #cert-items li{
@@ -148,9 +153,20 @@ li{
 	display: table;
 }
 
-.btn-group button:hover {
-  background-color: #111111;
+.btn-group button:hover{
+  background-color: black;
   color: yellow;
+}
+
+.proj-access h2 a{
+	text-decoration: none;
+	color: yellow;
+}
+
+.proj-items li{
+	margin: 40px;
+	padding: 0.5px;
+	font-size: 16px;
 }
 
 footer{

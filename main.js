@@ -5,3 +5,7 @@ function directToLinkedIn() {
 function directToGithub() {
   window.open("https://github.com/DominiqueOyco?tab=repositories", "_blank")
 }
+
+function directToEmail() {
+	window.open("mailto: dominickoyco@gmail.com", "_blank")
+}
