@@ -169,6 +169,12 @@ a{
 	font-size: 16px;
 }
 
+img{
+	float: right;
+	padding: 1px;
+	margin: 25px 7.5px 25px 7.5px;
+}
+
 footer{
 	clear: both;
     background: black;
