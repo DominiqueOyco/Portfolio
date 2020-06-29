@@ -1,7 +1,10 @@
 header{
     background: black;
 	color: white;
-	padding-top: 30px;
+	margin-top: -75px;
+	margin-left: -75px;
+	margin-right: -75px;
+	padding-top: 50px;
 	min-height: 70px;
 	border-bottom: yellow 3px solid;
 }
@@ -34,6 +37,7 @@ header #my-Name h1{
 
 header #my-Name h1 a{
 	font-size: 30px;
+	font-family: Apple SD Gothic Neo;
 	color: yellow;
 }
 
@@ -59,24 +63,26 @@ header li a:hover{
 
 body{
 	background-color: #a28ad2;
-	padding:0;
-	margin:0;
-	/*background-position: center; 
-	background-repeat: no-repeat; */
+	padding: 5px;
+	margin: 50px;
+	font-family: AppleGothic
 	line-height: 1.5;
 }
 
 h2{
 	position: relative;
 	left: 1.5%;
+	font-family: Apple SD Gothic Neo;
 	text-shadow: 0 0 15px black;
 }
 
 p{
     /*background: rgba(204, 204, 204, 0.5);*/
 	color: black;
-	display: inline-block;
-	margin: 40px;
+/*	display: inline-block;*/
+	font-family: AppleGothic
+	margin-left: 75px;
+	margin-right: 75px;
 	font-size: 20px;
 	padding: 10px;
 }
@@ -91,6 +97,7 @@ h1, h2{
 
 li{
 	color: black;
+	font-family: : AppleGothic;
 }
 
 li a{
@@ -99,6 +106,7 @@ li a{
 
 a{
 	color: black;
+	font-family: AppleGothic
 }
 
 #edu-items ul, #cert-items ul{
@@ -109,6 +117,7 @@ a{
 	margin: 40px;
 	color: black;
 	padding: 10px;
+	font-family: AppleGothic
 	font-size: 16px;
 	text-decoration: none;
 }
@@ -160,12 +169,14 @@ a{
 
 .proj-access h2 a{
 	text-decoration: none;
+	font-family: Apple SD Gothic Neo;
 	color: yellow;
 }
 
 .proj-items li{
 	margin: 40px;
 	padding: 0.5px;
+	font-family: Apple SD Gothic Neo;
 	font-size: 16px;
 }
 
@@ -180,5 +191,8 @@ footer{
     background: black;
 	color: white;
 	text-align: center;
+	margin-bottom: -75px;
+	margin-left: -75px;
+	margin-right: -75px;
 	padding: 15px;
 }
