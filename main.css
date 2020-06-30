@@ -65,7 +65,7 @@ body{
 	background-color: #a28ad2;
 	padding: 5px;
 	margin: 50px;
-	font-family: AppleGothic
+	font-family: AppleGothic;
 	line-height: 1.5;
 }
 
@@ -77,10 +77,8 @@ h2{
 }
 
 p{
-    /*background: rgba(204, 204, 204, 0.5);*/
 	color: black;
-/*	display: inline-block;*/
-	font-family: AppleGothic
+	font-family: AppleGothic;
 	margin-left: 75px;
 	margin-right: 75px;
 	font-size: 20px;
@@ -108,7 +106,7 @@ li a{
 
 a{
 	color: black;
-	font-family: AppleGothic
+	font-family: AppleGothic;
 }
 
 #edu-items ul, #cert-items ul{
@@ -119,7 +117,6 @@ a{
 	margin: 40px;
 	color: black;
 	padding: 10px;
-	font-family: AppleGothic
 	font-size: 16px;
 	text-decoration: none;
 }
