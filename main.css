@@ -37,7 +37,7 @@ header #my-Name h1{
 
 header #my-Name h1 a{
 	font-size: 30px;
-	font-family: Trebuchet;
+	font-family: Trebuchet MS;
 	color: yellow;
 }
 
@@ -65,20 +65,20 @@ body{
 	background-color: #a28ad2;
 	padding: 5px;
 	margin: 50px;
-	font-family: Trebuchet;
+	font-family: Trebuchet MS;
 	line-height: 1.5;
 }
 
 h2{
 	position: relative;
 	left: 1.5%;
-	font-family: Trebuchet;
+	font-family: Trebuchet MS;
 	text-shadow: 0 0 15px black;
 }
 
 p{
 	color: black;
-	font-family: Trebuchet;
+	font-family: Trebuchet MS;
 	margin-left: 75px;
 	margin-right: 75px;
 	font-size: 20px;
@@ -97,7 +97,7 @@ h1, h2{
 
 li{
 	color: black;
-	font-family: Trebuchet;
+	font-family: Trebuchet. MS;
 }
 
 li a{
@@ -106,7 +106,7 @@ li a{
 
 a{
 	color: black;
-	font-family: Trebuchet;
+	font-family: Trebuchet MS;
 }
 
 #edu-items ul, #cert-items ul{
@@ -168,14 +168,14 @@ a{
 
 .proj-access h2 a{
 	text-decoration: none;
-	font-family: Trebuchet;
+	font-family: Trebuchet MS;
 	color: yellow;
 }
 
 .proj-items li{
 	margin: 40px;
 	padding: 0.5px;
-	font-family: Trbeuchet;
+	font-family: Trbeuchet MS;
 	font-size: 16px;
 }
 
