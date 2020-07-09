@@ -4,49 +4,31 @@
 		<title>Dominique Oyco</title>
 		<link href="main.css" rel="stylesheet" type="text/css"/>
 		<link href="https://fonts.googleapis.com/css?family=Trebuchet+MS" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Do+Hyeon" rel="stylesheet">
 	</head>
 
-	<body>
-		<header>
-			<div class="container">
-				<div id="my-Name">
-					<h1 align="center"><a href="index.html">Dominique Oyco</a></h1>
+	<body id="home-body">
+		<header id="index-header">
+			<div id="home-container">
+				<video autoplay muted loop id="home-video">
+					<source src="Project Images/homegif.webm" type="video/webm">
+				</video>
+
+				<div id="home-overlay">
+					<div id="home-Name">
+						<h1 align="center"><a href="about.html">Dominique Oyco</a></h1>
+						<p>Software Developer</p>
+					</div>		
+
+					<nav>
+						<ul id="home-items">
+							<li><a href="courseSamples.html"><strong>Sample Work From University Courses</strong></a></li>
+							<li><a href="personalProjects.html"><strong>Personal Projects</strong></a></li>
+						</ul>
+					</nav>
 				</div>
-				<nav>
-					<ul id="menu-items">
-						<li><a href="index.html"><strong>Home</strong></a></li>
-						<li><a href="courseSamples.html"><strong>Sample Work on University Courses</strong></a></li>
-						<li><a href="personalProjects.html"><strong>Personal Projects</strong></a></li>
-					</ul>
-				</nav>
 			</div>
 		</header>
-
-		<h2>About Me</h2>
-		<p>I was a student of Computer Science in California State University Long Beach who graduated in Spring 2020 and I am ready to go to the industry to apply the knowledge I have obtained on the field of  software development. My best programming languages are Python, Java, and C#. I am also familiar with Standard Query Language (SQL) which are used on databases.<br></p>
-
-		<h2>Education</h2>
-		<ul id="edu-items">
-			<li> <a href="https://www.csulb.edu/"> <strong>California State University, Long Beach - Long Beach, CA </strong></a></li>
-			<li> Bachelors of Science, Computer Science (Spring 2020)</li>
-			<li> Cummulative GPA: 3.039 </li>
-			<li> Honors & Awards: Deans List (Fall 2019) & President's List (Spring 2020) </li>
-		</ul>
-
-		<h2>Certificates</h2>
-		<ul id="cert-items">
-			<li><a href="https://coursera.org/share/cb7ad83da76fb3817d425d00622ab908" target="_blank"><strong>Crash Course on Python - Google via Coursera</strong></a></li>
-		</ul>
-
-		<div class="button-text-center">
-			<div class="btn-group">
-				<button type="button" onclick="directToLinkedIn()">LinkedIn</button>
-				<button type="button" onclick="directToGithub()">Github</button>
-				<button type="button" onclick="directToEmail()">Gmail</button>
-			</div>
-		</div>
-		<script src="main.js"></script>
-
 		<footer>This website is built using HTML 5, CSS, and JavaScript<br> © 2020 Dominique Oyco </footer>
 	</body>
 

@@ -1,12 +1,12 @@
 header{
-    background: black;
+    background: rgba(0, 0, 0, 0.9);
 	color: white;
 	margin-top: -75px;
 	margin-left: -75px;
 	margin-right: -75px;
 	padding-top: 50px;
 	min-height: 70px;
-	border-bottom: yellow 3px solid;
+	border-bottom: gray 3px outset;
 }
 
 header ul{
@@ -37,8 +37,8 @@ header #my-Name h1{
 
 header #my-Name h1 a{
 	font-size: 30px;
-	font-family: Trebuchet MS;
-	color: yellow;
+	font-family: 'Do Hyeon';
+	color: #F7F4F4;
 }
 
 header ul{
@@ -55,6 +55,99 @@ header li a:hover{
 	color: yellow;
 }
 
+/*#index-header{
+	width: 1920px;
+	height: 1080px;
+	background: url("Project Images/homegif.webm");
+	background-repeat: no-repeat;
+}*/
+
+#home-container{
+	margin-top: -13%
+}
+
+#home-container #home-video {
+    display: block;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    position: relative;
+}
+
+#home-container #home-overlay{
+    position: absolute;
+    text-align: center;
+    margin: 0;
+    top: 45%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+#home-Name h1 a{
+	font-family: Do Hyeon;
+	font-weight: bold;
+	font-size: 120px;
+	-webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+}
+
+#home-Name h1 a:hover{
+	color: yellow;
+}
+
+#home-Name p{
+	font-family: Trebuchet MS;
+	color: white;
+	margin-top: -70px;
+	font-size: 48px;
+	-webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+}
+
+#home-overlay nav{
+	float: left;
+	position: absolute;
+    text-align: center;
+    top: 100%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+#home-items li a{
+	font-family: Do Hyeon;
+	font-size: 26px;
+	font-weight: bold;
+	-webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: black;
+}
+
+#home-items li a:hover{
+	background: none;
+}
+
+#home-body{
+	background: rgba(0, 0, 0, 0.9);
+}
+
+#home-about{
+	margin: 50px 25px;
+}
+
+#home-about h1{
+	font-family: Do Hyeon;
+	font-size: 72px;
+	font-weight: bold;
+	-webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+}
+
+#home-about p{
+	color: white;
+}
+
 .container{
 	width: 80%;
 	margin: 0 auto;
@@ -62,7 +155,7 @@ header li a:hover{
 }
 
 body{
-	background-color: #a28ad2;
+	background-color: #F7F4F4;
 	padding: 5px;
 	margin: 50px;
 	font-family: Trebuchet MS;
@@ -93,8 +186,6 @@ h1, h2{
 	color: yellow;
 }
 
-
-
 li{
 	color: black;
 	font-family: Trebuchet. MS;
@@ -108,6 +199,18 @@ a{
 	color: black;
 	font-family: Trebuchet MS;
 }
+
+/*.index-gif{
+	float: center;
+	width: 1280px;
+	height: 720px;
+}*/
+
+/*.img-container{
+	float: center;
+	width: 1280px;
+	height: 720px;
+}*/
 
 #edu-items ul, #cert-items ul{
 	list-style-type: none;
