@@ -35,7 +35,7 @@ header #my-Name{
 }
 
 header #my-Name h1 a{
-	font-size: 48px;
+	font-size: 40px;
 	font-family: Do Hyeon;
 	font-weight: bold;
 	color: #F7F4F4;
@@ -53,11 +53,11 @@ header ul{
 
 header nav{
 	float: right;
-	margin-top: 50px;
+	margin-top: 38px;
 }
 
 header li a{
-	font-size: 24px;
+	font-size: 20px;
 	font-family: Do Hyeon;
 	font-weight: bold;
 	color: #F7F4F4;
@@ -155,7 +155,6 @@ header li a:hover{
 
 body{
 	background-color: #F7F4F4;
-	/*padding: 5px;*/
 	margin: auto;
 	font-family: Trebuchet MS;
 	line-height: 1.5;
@@ -208,7 +207,7 @@ a{
 	padding: 0.5px;
 	font-family: Trebuchet MS;
 	color: white;
-	font-size: 24px;
+	font-size: 18px;
 }
 
 /*THIS SECTION IS FOR COURSESAMPLES.HTML*/
@@ -491,6 +490,117 @@ a{
 	color: #F7F4F4;
 }
 /*END OF COURSESAMPLES SECTION*/
+
+/*THIS SECTION IS FOR PERSONAL PROJECTS*/
+#aniflix-style{
+	/*margin-left: -50px;*/
+	background: #F7F4F4;
+	background-size: cover;
+	object-fit: fill;
+	width: 100%;
+	padding: 15px;
+	border-bottom: 3px #F7F4F4 outset;
+}
+
+#aniflix-style h2 a{
+	font-family: Do Hyeon;
+	font-weight: bold;
+	font-size: 40px;
+	text-decoration: none;
+	color: black;
+}
+
+#aniflix-style h2 a:hover{
+	color: yellow;
+	text-shadow: 0 0 15px black;
+}
+
+#aniflix-style li{
+	color: black;
+}
+
+#maze-style{
+	/*margin-left: -50px;*/
+	background: rgba(49, 185, 79, 0.8);
+	background-size: cover;
+	object-fit: fill;
+	width: 100%;
+	padding: 15px;
+	border: 3px rgba(49, 185, 79, 0.8) outset;
+}
+
+#maze-style h2 a{
+	font-family: Do Hyeon;
+	font-weight: bold;
+	font-size: 40px;
+	text-decoration: none;
+	color: #F7F4F4;
+}
+
+#maze-style h2 a:hover{
+	color: yellow;
+	text-shadow: 0 0 15px black;
+}
+
+#ruby-style{
+	/*margin-left: -50px;*/
+	background: rgba(255, 92, 92, 0.8);
+	background-size: cover;
+	object-fit: fill;
+	width: 100%;
+	padding: 15px;
+	border: 3px rgba(255, 92, 92, 0.8) outset;
+}
+
+#ruby-style h2 a{
+	font-family: Do Hyeon;
+	font-weight: bold;
+	font-size: 40px;
+	text-decoration: none;
+	color: #F7F4F4;
+}
+
+#ruby-style h2 a:hover{
+	color: yellow;
+	text-shadow: 0 0 15px black;
+}
+
+#lemon-style{
+	/*margin-left: -50px;*/
+	background: rgba(255, 237, 117, 0.8);
+	background-size: cover;
+	object-fit: fill;
+	width: 100%;
+	padding: 15px;
+	border: 3px rgba(255, 237, 117, 0.8); outset;
+}
+
+#lemon-style h2 a{
+	font-family: Do Hyeon;
+	font-weight: bold;
+	font-size: 40px;
+	text-decoration: none;
+	color: black;
+}
+
+#lemon-style h2 a:hover{
+	color: yellow;
+	text-shadow: 0 0 15px black;
+}
+
+#lemon-style li{
+	color: black;
+}
+
+
+
+
+
+
+
+
+
+/*END OF PERSONAL PROJECTS SECTION*/
 
 
 #edu-items ul, #cert-items ul{
