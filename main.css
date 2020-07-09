@@ -1,11 +1,14 @@
+html{
+	scroll-behavior: smooth;
+}
+
 header{
     background: rgba(0, 0, 0, 0.9);
 	color: white;
-	margin-top: -75px;
-	margin-left: -75px;
-	margin-right: -75px;
-	padding-top: 50px;
-	min-height: 70px;
+	margin: auto;
+	width: 100%;
+	height: 100%;
+	padding: 15px;
 	border-bottom: gray 3px outset;
 }
 
@@ -31,14 +34,17 @@ header #my-Name{
 	float: left;
 }
 
-header #my-Name h1{
-	margin: 0;
+header #my-Name h1 a{
+	font-size: 48px;
+	font-family: Do Hyeon;
+	font-weight: bold;
+	color: #F7F4F4;
+	-webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
 }
 
-header #my-Name h1 a{
-	font-size: 30px;
-	font-family: 'Do Hyeon';
-	color: #F7F4F4;
+#my-Name h1 a:hover{
+	color: yellow;
 }
 
 header ul{
@@ -47,11 +53,19 @@ header ul{
 
 header nav{
 	float: right;
-	margin-top: 10px;
+	margin-top: 50px;
+}
+
+header li a{
+	font-size: 24px;
+	font-family: Do Hyeon;
+	font-weight: bold;
+	color: #F7F4F4;
+	-webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: black;
 }
 
 header li a:hover{
-	background-color: black;
 	color: yellow;
 }
 
@@ -62,26 +76,32 @@ header li a:hover{
 	background-repeat: no-repeat;
 }*/
 
-#home-container{
-	margin-top: -13%
+/*THIS SECTION IS FOR THE HOMEPAGE*/
+#home-body{
+	margin: 0;
 }
 
-#home-container #home-video {
-    display: block;
-    margin: auto;
-    width: 100%;
-    height: 100%;
-    object-fit: fill;
-    position: relative;
+#index-header{
+    background: rgba(0, 0, 0, 0.9);
+	color: white;
+	margin: auto;
+	width: 100%;
+	height: 100%;
 }
 
-#home-container #home-overlay{
-    position: absolute;
+#home-video {
+    position: fixed;
+	right: 0;
+	bottom: 0;
+	min-width: 100%; 
+	min-height: 100%;
+}
+
+#home-overlay{
+    position: fixed;
     text-align: center;
-    margin: 0;
-    top: 45%;
+    top: 50%;
     left: 50%;
-    margin-right: -50%;
     transform: translate(-50%, -50%)
 }
 
@@ -100,53 +120,32 @@ header li a:hover{
 #home-Name p{
 	font-family: Trebuchet MS;
 	color: white;
-	margin-top: -70px;
+	/*margin-top: -70px;*/
 	font-size: 48px;
 	-webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: black;
 }
 
-#home-overlay nav{
-	float: left;
-	position: absolute;
-    text-align: center;
-    top: 100%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%)
+#home-items{
+	margin: 0;
+	padding: 0 11px 0 11px;
 }
 
 #home-items li a{
+	font-size: 22px;
 	font-family: Do Hyeon;
-	font-size: 26px;
 	font-weight: bold;
+	color: #F7F4F4;
 	-webkit-text-stroke-width: 0.5px;
     -webkit-text-stroke-color: black;
 }
 
 #home-items li a:hover{
 	background: none;
+	color: yellow;
 }
 
-#home-body{
-	background: rgba(0, 0, 0, 0.9);
-}
-
-#home-about{
-	margin: 50px 25px;
-}
-
-#home-about h1{
-	font-family: Do Hyeon;
-	font-size: 72px;
-	font-weight: bold;
-	-webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: black;
-}
-
-#home-about p{
-	color: white;
-}
+/*END OF HOMEPAGE SECTION*/
 
 .container{
 	width: 80%;
@@ -156,17 +155,18 @@ header li a:hover{
 
 body{
 	background-color: #F7F4F4;
-	padding: 5px;
-	margin: 50px;
+	/*padding: 5px;*/
+	margin: auto;
 	font-family: Trebuchet MS;
 	line-height: 1.5;
+	/*overflow-x: hidden;*/
 }
 
 h2{
-	position: relative;
+	margin: 50px;
 	left: 1.5%;
 	font-family: Trebuchet MS;
-	text-shadow: 0 0 15px black;
+/*	text-shadow: 0 0 15px black;*/
 }
 
 p{
@@ -183,7 +183,10 @@ p{
 }*/
 
 h1, h2{
-	color: yellow;
+	color: black;
+	font-family: Do Hyeon;
+	font-weight: bold;
+	font-size: 36px;
 }
 
 li{
@@ -211,6 +214,298 @@ a{
 	width: 1280px;
 	height: 720px;
 }*/
+
+/*THIS SECTION IS FOR COURSESAMPLES.HTML*/
+
+#rspirits-style{
+	/*margin-left: -50px;*/
+	background: #F7F4F4;
+	background-size: cover;
+	object-fit: fill;
+	width: 100%;
+	padding: 15px;
+	border-bottom: 3px #F7F4F4 outset;
+}
+
+#rspirits-style h2 a{
+	font-family: Do Hyeon;
+	font-weight: bold;
+	font-size: 40px;
+	text-decoration: none;
+	color: black;
+}
+
+#rspirits-style h2 a:hover{
+	color: yellow;
+	text-shadow: 0 0 15px black;
+}
+
+#rspirits-style li{
+	color: black;
+}
+
+#quizzical-style{
+	/*margin-left: -50px;*/
+	background: rgba(106, 175, 27, 0.8);
+	background-size: cover;
+	object-fit: fill;
+	width: 100%;
+	padding: 15px;
+	border-top: 3px rgba(106, 175, 27, 0.8) inset;
+	border-bottom: 3px rgba(106, 175, 27, 0.8) outset;
+}
+
+#quizzical-style h2 a{
+	font-family: Do Hyeon;
+	font-weight: bold;
+	font-size: 40px;
+	text-decoration: none;
+	color: white;
+}
+
+#quizzical-style h2 a:hover{
+	color: yellow;
+	text-shadow: 0 0 15px black;
+}
+
+#crypt-style{
+	/*margin-left: -50px;*/
+	background: rgba(48, 61, 232, 0.8);
+	background-size: cover;
+	object-fit: fill;
+	width: 100%;
+	padding: 15px;
+	border-top: 3px rgba(48, 61, 232, 0.8) inset;
+	border-bottom: 3px rgba(48, 61, 232, 0.8) outset;
+}
+
+#crypt-style h2 a{
+	font-family: Do Hyeon;
+	font-weight: bold;
+	font-size: 40px;
+	text-decoration: none;
+	color: white;
+}
+
+#crypt-style h2 a:hover{
+	color: yellow;
+	text-shadow: 0 0 15px black;
+}
+
+#malware-style{
+	/*margin-left: -50px;*/
+	background: rgba(255, 143, 150, 0.8);
+	background-size: cover;
+	object-fit: fill;
+	width: 100%;
+	padding: 15px;
+	border-top: 3px rgba(255, 143, 150, 0.8) inset;
+	border-bottom: 3px rgba(255, 143, 150, 0.8) outset;
+}
+
+#malware-style h2 a{
+	font-family: Do Hyeon;
+	font-weight: bold;
+	font-size: 40px;
+	text-decoration: none;
+	color: white;
+}
+
+#malware-style h2 a:hover{
+	color: yellow;
+	text-shadow: 0 0 15px black;
+}
+
+#chat-style{
+	/*margin-left: -50px;*/
+	background: rgba(255, 195, 15, 0.8);
+	background-size: cover;
+	object-fit: fill;
+	width: 100%;
+	padding: 15px;
+	border-top: 3px rgba(255, 195, 15, 0.8); inset;
+	border-bottom: 3px rgba(255, 195, 15, 0.8); outset;
+}
+
+#chat-style h2 a{
+	font-family: Do Hyeon;
+	font-weight: bold;
+	font-size: 40px;
+	text-decoration: none;
+	color: #4D4D4D;
+}
+
+#chat-style h2 a:hover{
+	color: yellow;
+	text-shadow: 0 0 15px black;
+}
+
+#chat-style li{
+	color: #4D4D4D;
+}
+
+#memory-style{
+	/*margin-left: -50px;*/
+	background: rgba(102, 255, 255, 0.8);
+	background-size: cover;
+	object-fit: fill;
+	width: 100%;
+	padding: 15px;
+	border-top: 3px rgba(102, 255, 255, 0.8); inset;
+	border-bottom: 3px rgba(102, 255, 255, 0.8); outset;
+}
+
+#memory-style h2 a{
+	font-family: Do Hyeon;
+	font-weight: bold;
+	font-size: 40px;
+	text-decoration: none;
+	color: #4D4D4D;
+}
+
+#memory-style h2 a:hover{
+	color: yellow;
+	text-shadow: 0 0 15px black;
+}
+
+#memory-style li{
+	color: #4D4D4D;
+}
+
+#iterator-style{
+	/*margin-left: -50px;*/
+	background: rgba(51, 51, 51, 0.8);
+	background-size: cover;
+	object-fit: fill;
+	width: 100%;
+	padding: 15px;
+	border-top: 3px rgba(51, 51, 51, 0.8); inset;
+	border-bottom: 3px rgba(51, 51, 51, 0.8); outset;
+}
+
+#iterator-style h2 a{
+	font-family: Do Hyeon;
+	font-weight: bold;
+	font-size: 40px;
+	text-decoration: none;
+	color: white;
+}
+
+#iterator-style h2 a:hover{
+	color: yellow;
+	text-shadow: 0 0 15px black;
+}
+
+#probability-style{
+	/*margin-left: -50px;*/
+	background: rgba(244, 158, 255, 0.8);
+	background-size: cover;
+	object-fit: fill;
+	width: 100%;
+	padding: 15px;
+	border-top: 3px rgba(244, 158, 255, 0.8); inset;
+	border-bottom: 3px rgba(244, 158, 255, 0.8); outset;
+}
+
+#probability-style h2 a{
+	font-family: Do Hyeon;
+	font-weight: bold;
+	font-size: 40px;
+	text-decoration: none;
+	color: white;
+	color: #4D4D4D;
+}
+
+#probability-style h2 a:hover{
+	color: yellow;
+	text-shadow: 0 0 15px black;
+}
+
+#probability-style li{
+	color: #4D4D4D;
+}
+
+#algorithm-style{
+	/*margin-left: -50px;*/
+	background: rgba(49, 185, 79, 0.8);
+	background-size: cover;
+	object-fit: fill;
+	width: 100%;
+	padding: 15px;
+	border-top: 3px rgba(49, 185, 79, 0.8); inset;
+	border-bottom: 3px rgba(49, 185, 79, 0.8); outset;
+}
+
+#algorithm-style h2 a{
+	font-family: Do Hyeon;
+	font-weight: bold;
+	font-size: 40px;
+	text-decoration: none;
+	color: white;
+}
+
+#algorithm-style h2 a:hover{
+	color: yellow;
+	text-shadow: 0 0 15px black;
+}
+
+#books-style{
+	/*margin-left: -50px;*/
+	background: rgba(255, 237, 117, 0.8);
+	background-size: cover;
+	object-fit: fill;
+	width: 100%;
+	padding: 15px;
+	border-top: 3px rgba(255, 237, 117, 0.8); inset;
+	border-bottom: 3px rgba(255, 237, 117, 0.8); outset;
+}
+
+#books-style h2 a{
+	font-family: Do Hyeon;
+	font-weight: bold;
+	font-size: 40px;
+	text-decoration: none;
+	color: #4D4D4D;
+}
+
+#books-style h2 a:hover{
+	color: yellow;
+	text-shadow: 0 0 15px black;
+}
+
+#books-style li{
+	color: #4D4D4D;
+}
+
+#shirt-style{
+	/*margin-left: -50px;*/
+	background: rgba(0, 0, 0, 0.8); inset;;
+	background-size: cover;
+	object-fit: fill;
+	width: 100%;
+	padding: 15px;
+	border-top: 3px rgba(0, 0, 0, 0.8); inset;
+	border-bottom: 3px rgba(0, 0, 0, 0.8); outset;
+}
+
+#shirt-style h2 a{
+	font-family: Do Hyeon;
+	font-weight: bold;
+	font-size: 40px;
+	text-decoration: none;
+	color: #F7F4F4;
+}
+
+#shirt-style h2 a:hover{
+	color: yellow;
+	text-shadow: 0 0 15px black;
+}
+
+#shirt-style li{
+	color: #F7F4F4;
+}
+/*END OF COURSESAMPLES SECTION*/
+
 
 #edu-items ul, #cert-items ul{
 	list-style-type: none;
@@ -271,15 +566,22 @@ a{
 
 .proj-access h2 a{
 	text-decoration: none;
-	font-family: Trebuchet MS;
+	font-family: Do Hyeon;
+	font-weight: bold;
+	color: black;
+}
+
+.proj-access h2 a:hover{
 	color: yellow;
+	text-shadow: 0 0 15px black;
 }
 
 .proj-items li{
-	margin: 40px;
+	margin: 50px;
 	padding: 0.5px;
 	font-family: Trebuchet MS;
-	font-size: 16px;
+	color: white;
+	font-size: 20px;
 }
 
 img{
@@ -290,11 +592,12 @@ img{
 
 footer{
 	clear: both;
-    background: black;
+	background: rgba(0, 0, 0, 0.9);
 	color: white;
+	font-family: Trebuchet MS;
 	text-align: center;
-	margin-bottom: -75px;
-	margin-left: -75px;
-	margin-right: -75px;
+	height: 100%;
+	width: 100%;
+	margin: auto;
 	padding: 15px;
 }
