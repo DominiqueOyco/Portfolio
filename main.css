@@ -158,7 +158,7 @@ body{
 	margin: auto;
 	font-family: Trebuchet MS;
 	line-height: 1.5;
-	/*overflow-x: hidden;*/
+	overflow-x: hidden;
 }
 
 h2{
@@ -572,7 +572,7 @@ a{
 	object-fit: fill;
 	width: 100%;
 	padding: 15px;
-	border: 3px rgba(255, 237, 117, 0.8); outset;
+	border: 3px rgba(255, 237, 117, 0.8) outset;
 }
 
 #lemon-style h2 a{
