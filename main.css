@@ -203,17 +203,13 @@ a{
 	font-family: Trebuchet MS;
 }
 
-/*.index-gif{
-	float: center;
-	width: 1280px;
-	height: 720px;
-}*/
-
-/*.img-container{
-	float: center;
-	width: 1280px;
-	height: 720px;
-}*/
+.proj-items li{
+	margin: 50px;
+	padding: 0.5px;
+	font-family: Trebuchet MS;
+	color: white;
+	font-size: 24px;
+}
 
 /*THIS SECTION IS FOR COURSESAMPLES.HTML*/
 
@@ -246,13 +242,12 @@ a{
 
 #quizzical-style{
 	/*margin-left: -50px;*/
-	background: rgba(106, 175, 27, 0.8);
+	background: rgba(49, 185, 79, 0.8);
 	background-size: cover;
 	object-fit: fill;
 	width: 100%;
 	padding: 15px;
-	border-top: 3px rgba(106, 175, 27, 0.8) inset;
-	border-bottom: 3px rgba(106, 175, 27, 0.8) outset;
+	border: 3px rgba(49, 185, 79, 0.8) outset;
 }
 
 #quizzical-style h2 a{
@@ -275,8 +270,7 @@ a{
 	object-fit: fill;
 	width: 100%;
 	padding: 15px;
-	border-top: 3px rgba(48, 61, 232, 0.8) inset;
-	border-bottom: 3px rgba(48, 61, 232, 0.8) outset;
+	border: 3px rgba(48, 61, 232, 0.8) outset;
 }
 
 #crypt-style h2 a{
@@ -299,8 +293,7 @@ a{
 	object-fit: fill;
 	width: 100%;
 	padding: 15px;
-	border-top: 3px rgba(255, 143, 150, 0.8) inset;
-	border-bottom: 3px rgba(255, 143, 150, 0.8) outset;
+	border: 3px rgba(255, 143, 150, 0.8) outset;
 }
 
 #malware-style h2 a{
@@ -323,8 +316,7 @@ a{
 	object-fit: fill;
 	width: 100%;
 	padding: 15px;
-	border-top: 3px rgba(255, 195, 15, 0.8); inset;
-	border-bottom: 3px rgba(255, 195, 15, 0.8); outset;
+	border: 3px rgba(255, 195, 15, 0.8); outset;
 }
 
 #chat-style h2 a{
@@ -351,8 +343,7 @@ a{
 	object-fit: fill;
 	width: 100%;
 	padding: 15px;
-	border-top: 3px rgba(102, 255, 255, 0.8); inset;
-	border-bottom: 3px rgba(102, 255, 255, 0.8); outset;
+	border: 3px rgba(102, 255, 255, 0.8); outset;
 }
 
 #memory-style h2 a{
@@ -379,8 +370,7 @@ a{
 	object-fit: fill;
 	width: 100%;
 	padding: 15px;
-	border-top: 3px rgba(51, 51, 51, 0.8); inset;
-	border-bottom: 3px rgba(51, 51, 51, 0.8); outset;
+	border: 3px rgba(51, 51, 51, 0.8); outset;
 }
 
 #iterator-style h2 a{
@@ -403,8 +393,7 @@ a{
 	object-fit: fill;
 	width: 100%;
 	padding: 15px;
-	border-top: 3px rgba(244, 158, 255, 0.8); inset;
-	border-bottom: 3px rgba(244, 158, 255, 0.8); outset;
+	border: 3px rgba(244, 158, 255, 0.8); outset;
 }
 
 #probability-style h2 a{
@@ -427,13 +416,12 @@ a{
 
 #algorithm-style{
 	/*margin-left: -50px;*/
-	background: rgba(49, 185, 79, 0.8);
+	background: rgba(106, 175, 27, 0.8);
 	background-size: cover;
 	object-fit: fill;
 	width: 100%;
 	padding: 15px;
-	border-top: 3px rgba(49, 185, 79, 0.8); inset;
-	border-bottom: 3px rgba(49, 185, 79, 0.8); outset;
+	border: 3px rgba(106, 175, 27, 0.8); outset;
 }
 
 #algorithm-style h2 a{
@@ -456,8 +444,7 @@ a{
 	object-fit: fill;
 	width: 100%;
 	padding: 15px;
-	border-top: 3px rgba(255, 237, 117, 0.8); inset;
-	border-bottom: 3px rgba(255, 237, 117, 0.8); outset;
+	border: 3px rgba(255, 237, 117, 0.8); outset;
 }
 
 #books-style h2 a{
@@ -484,8 +471,7 @@ a{
 	object-fit: fill;
 	width: 100%;
 	padding: 15px;
-	border-top: 3px rgba(0, 0, 0, 0.8); inset;
-	border-bottom: 3px rgba(0, 0, 0, 0.8); outset;
+	border: 3px rgba(0, 0, 0, 0.8); outset;
 }
 
 #shirt-style h2 a{
@@ -574,14 +560,6 @@ a{
 .proj-access h2 a:hover{
 	color: yellow;
 	text-shadow: 0 0 15px black;
-}
-
-.proj-items li{
-	margin: 50px;
-	padding: 0.5px;
-	font-family: Trebuchet MS;
-	color: white;
-	font-size: 20px;
 }
 
 img{
