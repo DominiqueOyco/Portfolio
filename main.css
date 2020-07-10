@@ -158,7 +158,7 @@ body{
 	margin: auto;
 	font-family: Trebuchet MS;
 	line-height: 1.5;
-	overflow-x: hidden;
+	/*overflow-x: hidden;*/
 }
 
 h2{
@@ -246,7 +246,7 @@ a{
 	object-fit: fill;
 	width: 100%;
 	padding: 15px;
-	border: 3px rgba(49, 185, 79, 0.8) outset;
+	border-bottom: 3px rgba(49, 185, 79, 0.8) outset;
 }
 
 #quizzical-style h2 a{
@@ -269,7 +269,7 @@ a{
 	object-fit: fill;
 	width: 100%;
 	padding: 15px;
-	border: 3px rgba(48, 61, 232, 0.8) outset;
+	border-bottom: 3px rgba(48, 61, 232, 0.8) outset;
 }
 
 #crypt-style h2 a{
@@ -292,7 +292,7 @@ a{
 	object-fit: fill;
 	width: 100%;
 	padding: 15px;
-	border: 3px rgba(255, 143, 150, 0.8) outset;
+	border-bottom: 3px rgba(255, 143, 150, 0.8) outset;
 }
 
 #malware-style h2 a{
@@ -315,7 +315,7 @@ a{
 	object-fit: fill;
 	width: 100%;
 	padding: 15px;
-	border: 3px rgba(255, 195, 15, 0.8); outset;
+	border-bottom: 3px rgba(255, 195, 15, 0.8); outset;
 }
 
 #chat-style h2 a{
@@ -342,7 +342,7 @@ a{
 	object-fit: fill;
 	width: 100%;
 	padding: 15px;
-	border: 3px rgba(102, 255, 255, 0.8); outset;
+	border-bottom: 3px rgba(102, 255, 255, 0.8); outset;
 }
 
 #memory-style h2 a{
@@ -369,7 +369,7 @@ a{
 	object-fit: fill;
 	width: 100%;
 	padding: 15px;
-	border: 3px rgba(51, 51, 51, 0.8); outset;
+	border-bottom: 3px rgba(51, 51, 51, 0.8); outset;
 }
 
 #iterator-style h2 a{
@@ -392,7 +392,7 @@ a{
 	object-fit: fill;
 	width: 100%;
 	padding: 15px;
-	border: 3px rgba(244, 158, 255, 0.8); outset;
+	border-bottom: 3px rgba(244, 158, 255, 0.8); outset;
 }
 
 #probability-style h2 a{
@@ -420,7 +420,7 @@ a{
 	object-fit: fill;
 	width: 100%;
 	padding: 15px;
-	border: 3px rgba(106, 175, 27, 0.8); outset;
+	border-bottom: 3px rgba(106, 175, 27, 0.8); outset;
 }
 
 #algorithm-style h2 a{
@@ -443,7 +443,7 @@ a{
 	object-fit: fill;
 	width: 100%;
 	padding: 15px;
-	border: 3px rgba(255, 237, 117, 0.8); outset;
+	border-bottom: 3px rgba(255, 237, 117, 0.8); outset;
 }
 
 #books-style h2 a{
@@ -470,7 +470,7 @@ a{
 	object-fit: fill;
 	width: 100%;
 	padding: 15px;
-	border: 3px rgba(0, 0, 0, 0.8); outset;
+	border-bottom: 3px rgba(0, 0, 0, 0.8); outset;
 }
 
 #shirt-style h2 a{
@@ -526,7 +526,7 @@ a{
 	object-fit: fill;
 	width: 100%;
 	padding: 15px;
-	border: 3px rgba(49, 185, 79, 0.8) outset;
+	border-bottom: 3px rgba(49, 185, 79, 0.8) outset;
 }
 
 #maze-style h2 a{
@@ -549,7 +549,7 @@ a{
 	object-fit: fill;
 	width: 100%;
 	padding: 15px;
-	border: 3px rgba(255, 92, 92, 0.8) outset;
+	border-bottom: 3px rgba(255, 92, 92, 0.8) outset;
 }
 
 #ruby-style h2 a{
@@ -572,7 +572,7 @@ a{
 	object-fit: fill;
 	width: 100%;
 	padding: 15px;
-	border: 3px rgba(255, 237, 117, 0.8) outset;
+	border-bottom: 3px rgba(255, 237, 117, 0.8) outset;
 }
 
 #lemon-style h2 a{
