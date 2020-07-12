@@ -677,6 +677,27 @@ a{
 	text-shadow: 0 0 15px black;
 }
 
+.btn {
+    text-align: center;
+    vertical-align: middle;
+    padding: 1em 1em;
+    cursor: pointer;
+}
+
+.btn-resume {
+    color: white;
+    background-color: #000000;
+    font-family: Do Hyeon;
+    border: none;
+    border-radius: .3em;
+    font-weight: bold;
+}
+
+.btn-resume:hover {
+    background-color: #ffffff;
+    color: black;
+}
+
 img{
 	float: right;
 	padding: 1px;
