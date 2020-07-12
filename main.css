@@ -660,6 +660,14 @@ a{
   color: yellow;
 }
 
+#button-resume{
+	text-align: center;
+	font-family: Do Hyeon;
+	font-weight: bold;
+	font-size: 18px;
+	padding-bottom: 50px;
+}
+
 .proj-access h2 a{
 	text-decoration: none;
 	font-family: Do Hyeon;

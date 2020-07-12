@@ -9,3 +9,7 @@ function directToGithub() {
 function directToEmail() {
 	window.open("mailto: dominickoyco@gmail.com", "_blank")
 }
+
+function directToResume() {
+	window.open("https://drive.google.com/file/d/1ItCmfZUCNd3jj-xK3NIl11RmNOidfxkW/view?usp=sharing",  "_blank")
+}
