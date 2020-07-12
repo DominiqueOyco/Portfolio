@@ -52,17 +52,21 @@ header ul{
 }
 
 .page-links{
+	position: relative;
 	float: right;
 	margin-top: 35px;
 	cursor: pointer;
 }
 
 .social-links{
+	position: relative;
 	float: right;
-	margin-top: 5px;
+	margin-top: 35px;
 	cursor: pointer;
-	display: inline-block;
-	text-align: right;
+	/*right: -40em;
+	top: 15%;
+	width: -50em;
+	margin-top: 5em;*/
 }
 
 header li a{
@@ -621,7 +625,7 @@ a{
 	color: black;
 }
 
-.button-text-center{
+/*.button-text-center{
 	text-align: center;
 	margin: 0 auto;
 	position: relative;
@@ -646,9 +650,9 @@ a{
 	text-decoration: none;
 	color: black;
 }
-/*.btn-group button:not(:last-child) {
+.btn-group button:not(:last-child) {
 	border-right: none; 
-}*/
+}
 
 .btn-group:after {
 	content: "";
@@ -659,7 +663,7 @@ a{
 .btn-group button:hover{
   background-color: black;
   color: yellow;
-}
+}*/
 
 #button-resume{
 	text-align: center;
