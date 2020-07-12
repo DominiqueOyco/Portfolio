@@ -58,6 +58,7 @@ header ul{
 
 .social-links{
 	float: right;
+	cursor: pointer;
 }
 
 header li a{
