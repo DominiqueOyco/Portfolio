@@ -51,14 +51,14 @@ header ul{
 	list-style-type: none;
 }
 
-.page-links{
+nav{
 	float: right;
 	margin-top: 35px;
+	cursor: pointer;
 }
 
 .social-links{
-	float: right;
-	cursor: pointer;
+	margin: 0 0 0 15px;
 }
 
 header li a{
