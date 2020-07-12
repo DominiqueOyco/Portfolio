@@ -30,11 +30,11 @@ header a{
 	font-size: 18px;
 }
 
-header #my-Name{
+#my-Name{
 	float: left;
 }
 
-header #my-Name h1 a{
+#my-Name h1 a{
 	font-size: 40px;
 	font-family: Do Hyeon;
 	font-weight: bold;
@@ -60,14 +60,19 @@ header ul{
 
 .social-links{
 	position: relative;
-	float: right;
-	margin-top: 35px;
-	cursor: pointer;
-	/*right: -40em;
-	top: 15%;
-	width: -50em;
-	margin-top: 5em;*/
 }
+
+.social-items{
+	float: right;
+	margin-top: -10px;
+	cursor: pointer;
+	position: absolute;
+	right: 18px;
+	top: 65px;
+	width: -5em;
+}
+
+
 
 header li a{
 	font-size: 20px;
@@ -133,7 +138,6 @@ header li a:hover{
 #home-Name p{
 	font-family: Trebuchet MS;
 	color: white;
-	/*margin-top: -70px;*/
 	font-size: 48px;
 	-webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: black;
