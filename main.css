@@ -143,15 +143,26 @@ header li a:hover{
     -webkit-text-stroke-color: black;
 }
 
+#home-links{
+	position: relative;
+}
+
 #home-items{
 	margin: 0;
-	padding: 0 5px 0 5px;
+	/*padding: 0 5px 0 5px;*/
+	float: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: -5em;
 }
 
 #home-items li a{
-	font-size: 22px;
+	font-size: 20px;
 	font-family: Do Hyeon;
 	font-weight: bold;
+	text-align: center;
 	color: #F7F4F4;
 	-webkit-text-stroke-width: 0.5px;
     -webkit-text-stroke-color: black;
