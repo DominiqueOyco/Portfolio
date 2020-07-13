@@ -72,8 +72,6 @@ header ul{
 	width: -5em;
 }
 
-
-
 header li a{
 	font-size: 20px;
 	font-family: Do Hyeon;
@@ -97,6 +95,7 @@ header li a:hover{
 /*THIS SECTION IS FOR THE HOMEPAGE*/
 #home-body{
 	margin: 0;
+	overflow-y: scroll;
 }
 
 #index-header{
@@ -121,6 +120,17 @@ header li a:hover{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%)
+}
+
+#home-name{
+	position: relative;
+}
+
+#home-name{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 }
 
 #home-Name h1 a{
@@ -148,14 +158,10 @@ header li a:hover{
 }
 
 #home-items{
-	margin: 0;
-	/*padding: 0 5px 0 5px;*/
-	float: center;
 	position: absolute;
 	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	width: -5em;
+	left: 11%;
+	/*transform: translate(50%, 50%);*/
 }
 
 #home-items li a{
